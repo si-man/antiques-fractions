@@ -1,0 +1,225 @@
+@font-face {
+  font-family: JosefinSans;
+  src: url('../fonts/josefin-sans/JosefinSans_Thin.ttf');
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: JosefinSans;
+  color: #e72179;
+}
+
+h5 {
+	color: #e72179;
+}
+
+p  {
+  font-family: 'Muli', sans-serif;
+}
+
+hr {
+height: 1px;
+color: #e9a624;
+background-color: #e9a624;
+border: none;
+margin-top: 5rem;
+}
+
+.navbar-brand img {
+	height: 3rem;
+}
+
+.navbar-dark.scrolled {
+  background: black !important;
+}
+
+@media (max-width: 991px) {
+  nav.navbar {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.nav-link {
+	color: white !important;
+}
+
+.home-inner {
+	background-image: url(img/FMHMountainCover.png);
+}
+
+.layer {
+  background-color: rgba(20, 20, 20, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+}
+
+.gap {
+  margin-top: 2rem;
+}
+
+.space {
+	margin-top: 5rem;
+}
+
+.padding {
+	padding: 2rem;
+}
+
+.paddingsmall {
+	padding: 1rem;
+}
+
+.border {
+  padding: 3rem;
+  margin: 1rem;
+}
+
+.title {
+  font-family: JosefinSans;
+	padding: 2rem;
+}
+
+.smalltitle {
+	padding: 1rem;
+}
+
+.jumbotron {
+	border-radius: 0;
+	background-image: url(img/footer.png);
+	background-size: cover;
+  background-position: top center;
+	padding-top: 10rem;
+	padding-bottom: 2rem;
+  margin-bottom: 0;
+}
+
+.lastline {
+	font-size: .8rem;
+}
+
+.lastline a, a:hover, a:active, a:visited { color: white; }
+
+#buttonbody {
+  margin-top: 3rem;
+}
+
+#grad {
+  background-image: linear-gradient(to bottom right, #1b0025, #2e0011);
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+#caskfractions h1 {
+  font-family: JosefinSans;
+  font-size: 3.2rem;
+  color: #ffffff;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+}
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: scroll;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+.text-xs-left { text-align: left; }
+.text-xs-right { text-align: right; }
+.text-xs-center { text-align: center; }
+.text-xs-justify { text-align: justify; }
+
+@media (min-width: @screen-sm-min) {
+    .text-sm-left { text-align: left; }
+    .text-sm-right { text-align: right; }
+    .text-sm-center { text-align: center; }
+    .text-sm-justify { text-align: justify; }
+}
+
+@media (min-width: @screen-md-min) {
+    .text-md-left { text-align: left; }
+    .text-md-right { text-align: right; }
+    .text-md-center { text-align: center; }
+    .text-md-justify { text-align: justify; }
+}
+
+@media (min-width: @screen-lg-min) {
+    .text-lg-left { text-align: left; }
+    .text-lg-right { text-align: right; }
+    .text-lg-center { text-align: center; }
+    .text-lg-justify { text-align: justify; }
+}
+
+// For SASS
+// .text-xs-left { text-align: left; }
+// .text-xs-right { text-align: right; }
+// .text-xs-center { text-align: center; }
+// .text-xs-justify { text-align: justify; }
+
+// @media (min-width: $screen-sm-min) {
+//     .text-sm-left { text-align: left; }
+//     .text-sm-right { text-align: right; }
+//     .text-sm-center { text-align: center; }
+//     .text-sm-justify { text-align: justify; }
+// }
+
+// @media (min-width: $screen-md-min) {
+//     .text-md-left { text-align: left; }
+//     .text-md-right { text-align: right; }
+//     .text-md-center { text-align: center; }
+//     .text-md-justify { text-align: justify; }
+// }
+
+//@media (min-width: $screen-lg-min) {
+//    .text-lg-left { text-align: left; }
+//    .text-lg-right { text-align: right; }
+//    .text-lg-center { text-align: center; }
+//    .text-lg-justify { text-align: justify; }
+//}

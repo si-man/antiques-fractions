@@ -1,0 +1,491 @@
+/*---  --*/
+@font-face {
+  font-family: JosefinSans;
+  src: url('../fonts/josefin-sans/JosefinSans_Thin.ttf');
+}
+
+@font-face {
+  font-family: JosefinSansReg;
+  src: url('../fonts/josefin-sans/JosefinSans_Regular.ttf');
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: JosefinSans;
+  color: #e72179;
+}
+
+h2 {
+  font-family: JosefinSans;
+  color: #e72179;
+}
+
+h3 {
+  font-family: JosefinSans;
+  color: #e72179;
+  text-transform: uppercase;
+}
+
+
+h4 {}
+
+h6 {
+  color: #e72179;
+}
+
+p {
+  font-size: 14px;
+}
+
+.v-mid h1 {
+  font-family: JosefinSansReg;
+  color: #e72179;
+}
+
+.navbar-brand img {
+  height: 4rem;
+}
+
+.home-inner {
+  background-image: url(img/FMHMountainCover.png);
+}
+
+.layer {
+  background-color: rgba(20, 20, 20, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.icon img {
+  height: 3rem;
+}
+
+.smicon {
+  margin-bottom: 1rem;
+  margin-left: 0.1rem;
+}
+
+.gap {
+  margin-bottom: 1rem;
+}
+
+.top {
+  margin-top:  1rem;
+}
+
+.space {
+  padding: 2rem;
+}
+
+.form-control {
+  background-color: #EAEBEB;
+  color: #FFF;
+  border-radius: 0;
+  border: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+#title h6 {
+  color: #ffffff;
+}
+
+#Contact {
+  background-color: #F8F8F8;
+}
+
+.section-bg {
+  background-color: #F8F8F8;
+}
+
+#team img {
+  display: block;
+  margin: auto;
+  width: 14rem;
+}
+
+.platinumcask {
+  background-image: url(img/landing.png);
+}
+
+.parallax3 h2 {
+  color: #ffffff;
+}
+
+.parallax3 p {
+  color: #ffffff;
+}
+
+#platinumcask {
+  padding-top: 4rem;
+}
+
+#platinumcask h1 {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+#platinumtext p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#ptlogo img {
+  transform: rotate(18deg);
+  opacity: 0.4;
+  width: 80%;
+  margin-top: 11rem;
+}
+
+#information img {
+  width: 40%;
+  margin-bottom: 2rem;
+}
+
+#information p {
+  color: #D5D5D5;
+}
+
+#footer p {
+  color: #ffffff;
+}
+
+#footer {
+  background-color: #212121;
+  padding-top: 2rem;
+}
+
+#lastline img {
+  max-height: 2rem;
+  margin-top: 0.2rem;
+}
+
+#lastline {
+  background-color: #fff;
+}
+
+#lastline p {
+  color: black;
+  margin-top: 0.5rem;
+}
+
+
+
+hr {
+  height: 1px;
+  color: #CDCDCD;
+  background-color: #CDCDCD;
+  border: none;
+  margin-top: 2rem;
+}
+
+.dash {
+  border-bottom: 3px solid #e72179;
+}
+
+.plat-dash {
+  border-bottom: 3px solid #DFA726;
+}
+
+.lastline {
+	font-size: .8rem;
+}
+
+.grey a {
+  color: #D0D0D0;
+}
+
+
+/*--- Nav Bar Start --*/
+.navbar {
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background: white !important;
+}
+
+/*---
+
+@media (max-width: 991px) {
+  nav.navbar {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+ --*/
+.nav-link {
+  color: #e72179 !important;
+}
+
+/*--- Nav Bar End --*/
+.title {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.content {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.v-mid h1 {
+  margin-top: 6rem;
+}
+
+/*--- Parallax Effect Start --*/
+.parallax2 {
+  background: url(img/15.PitchDeck.jpg);
+  min-height: 250px;
+}
+
+.parallax3 {
+  background: url(img/landing.png);
+  min-height: 800px;
+}
+
+.parallax4 {
+  background: url(img/5.PitchDeck.jpg);
+  min-height: 250px;
+}
+
+.parallax5 {
+  background: url(img/Bangkok.png);
+  min-height: 250px;
+}
+
+.parallax6 {
+  background: url(img/OfficeLocation.jpeg);
+  min-height: 500px;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.map img {
+  max-width:100%;
+}
+
+
+
+/*---
+.heading {
+  position: absolute;
+  color: #fff;
+  font-size: 550%;
+  top: 38%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px #000;
+}
+
+/*---
+.heading-sm {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  color: #fff;
+  font-size: 250%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #000;
+}
+
+
+.two-col {
+  float: left;
+  width: 42%;
+  padding: 0 4%;
+  text-align: left;
+}
+section {
+  overflow: auto;
+  padding: 50px 80px;
+}
+--*/
+/*---
+
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 250%;
+  }
+  .heading-sm {
+    font-size: 180%;
+  }
+  .two-col {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+}
+ --*/
+/*--- Parallax Effect End --*/
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner {
+  position: scroll;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+#footer a {
+  color: #fff;
+}
+
+a {
+    color: #3e3e3e;
+    transition: all .3s ease-in 0s;
+}
+
+a:focus, a:hover {
+    color: #e72179;
+    text-decoration: none;
+}
+
+
+/*--- Start Team Photo --*/
+
+.team-member {
+    color: #fff
+}
+
+.team-member:hover .mask {
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: rotateY(0deg) scale(1, 1);
+    transform: rotateY(0deg) scale(1, 1)
+}
+
+.team-member .mask p {
+    position: relative;
+    top: 40%
+}
+
+.member-photo {
+    overflow: hidden;
+    position: relative
+}
+
+@media(max-width:768px) {
+    .member-photo {
+        text-align: center
+    }
+}
+
+.member-photo:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.member-photo img {
+    transition: all .4s ease 0s;
+}
+
+@media(max-width:768px) {
+    .member-photo img {
+        display: inline-block;
+    }
+}
+
+.member-photo .mask {
+    background-color: rgba(231,33,121,.3);
+}
+
+.member-photo .mask {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: all .5s ease-in-out;
+}
+
+.member-photo .mask ul {
+    text-align: center;
+    position: relative;
+    top: 125px;
+}
+
+.member-photo .mask ul li a {
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+}
+
+.member-photo .mask ul li a:hover {
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+/*--- End Tem Photo --*/
+
+.scrolling-box {
+
+  display: block;
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  text-align: center;
+
+}

@@ -1,0 +1,304 @@
+/*---  --*/
+@font-face {
+  font-family: AntroVectra;
+  src: url('../fonts/Antro_Vectra.otf');
+}
+
+@font-face {
+  font-family: JosefinSans;
+  src: url('../fonts/josefin-sans/JosefinSans_Thin.ttf');
+}
+
+@font-face {
+  font-family: JosefinSansReg;
+  src: url('../fonts/josefin-sans/JosefinSans_Regular.ttf');
+}
+
+
+
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #ffffff;
+  color: black;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: JosefinSansReg;
+  color: #000000 !important;
+}
+
+h2 {
+  font-family: JosefinSansReg;
+  padding: 1rem;
+  color: #;
+  font-size: 3rem;
+}
+
+h3 {
+	color: black;
+}
+
+h4 {
+	font-family: 'Muli', sans-serif;
+	color: black;
+}
+
+p  {
+  font-family: 'Muli', sans-serif;
+}
+
+hr {
+height: 1px;
+color: #cc0000;
+background-color: #cc0000;
+border: none;
+margin-top: 5rem;
+}
+
+.navbar-brand img {
+	height: 5rem;
+}
+
+#footimage img {
+	height: 4rem;
+
+}
+
+.navbar {
+  background-color: white ;
+  font-family: 'Muli', sans-serif;
+}
+
+#navbutton {
+  color: black !important;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background: white !important;
+}
+
+
+
+@media (max-width: 991px) {
+  nav.navbar {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+
+.nav-link {
+	color: black !important;
+  font
+}
+
+
+.home-inner {
+	background-image: url(img/bg.jpg);
+}
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+}
+
+.gap {
+  margin-top: 2rem;
+}
+
+.space {
+	margin-top: 5rem;
+}
+
+.padding {
+	padding: 2rem;
+}
+
+.paddingsmall {
+	padding: 1rem;
+}
+
+.border {
+  padding: 3rem;
+  margin: 1rem;
+}
+
+
+.title {
+  font-family: JosefinSansReg;
+	padding-top: : 3rem;
+  color: #cc0000 !important;
+}
+
+/*---
+#title img {
+  width: 25%;
+--*/
+
+}
+
+#title h4 {
+  color: #cc0000 !important;
+}
+
+
+.smalltitle {
+	padding: 1rem;
+}
+
+.footer-inner {
+
+}
+
+.jumbotron {
+	border-radius: 0;
+  background-image: url(img/ft.jpg);
+	background-size: cover;
+  background-position: center;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.lastline {
+	font-size: .8rem;
+}
+
+.lastline a, a:hover, a:active, a:visited { color: black; }
+
+#buttonbody {
+  margin-top: 3rem;
+}
+/*---
+#grad {
+  background-image: linear-gradient(to bottom right, #1b0025, #2e0011);
+  margin-top: 2rem;
+  padding: 1rem;
+  border-width: 0 !important;
+}
+--*/
+#caskfractions h1 {
+  font-family: JosefinSansReg;
+  font-size: 3.2rem;
+  color: #ffffff;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+}
+
+
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  opacity: 0.3;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: scroll;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+.text-xs-left { text-align: left; }
+.text-xs-right { text-align: right; }
+.text-xs-center { text-align: center; }
+.text-xs-justify { text-align: justify; }
+
+@media (min-width: @screen-sm-min) {
+    .text-sm-left { text-align: left; }
+    .text-sm-right { text-align: right; }
+    .text-sm-center { text-align: center; }
+    .text-sm-justify { text-align: justify; }
+}
+
+@media (min-width: @screen-md-min) {
+    .text-md-left { text-align: left; }
+    .text-md-right { text-align: right; }
+    .text-md-center { text-align: center; }
+    .text-md-justify { text-align: justify; }
+}
+
+@media (min-width: @screen-lg-min) {
+    .text-lg-left { text-align: left; }
+    .text-lg-right { text-align: right; }
+    .text-lg-center { text-align: center; }
+    .text-lg-justify { text-align: justify; }
+}
+
+// For SASS
+// .text-xs-left { text-align: left; }
+// .text-xs-right { text-align: right; }
+// .text-xs-center { text-align: center; }
+// .text-xs-justify { text-align: justify; }
+
+// @media (min-width: $screen-sm-min) {
+//     .text-sm-left { text-align: left; }
+//     .text-sm-right { text-align: right; }
+//     .text-sm-center { text-align: center; }
+//     .text-sm-justify { text-align: justify; }
+// }
+
+// @media (min-width: $screen-md-min) {
+//     .text-md-left { text-align: left; }
+//     .text-md-right { text-align: right; }
+//     .text-md-center { text-align: center; }
+//     .text-md-justify { text-align: justify; }
+// }
+
+//@media (min-width: $screen-lg-min) {
+//    .text-lg-left { text-align: left; }
+//    .text-lg-right { text-align: right; }
+//    .text-lg-center { text-align: center; }
+//    .text-lg-justify { text-align: justify; }
+//}
+
+
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 2s;
+}
+
+.hidden {
+  opacity: 0;
+}

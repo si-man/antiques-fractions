@@ -54,8 +54,8 @@ p  {
 
 hr {
 height: 1px;
-color: #cc0000;
-background-color: #cc0000;
+color: #1698AF;
+background-color: #1698AF;
 border: none;
 margin-top: 5rem;
 }
@@ -138,7 +138,7 @@ margin-top: 5rem;
 .title {
   font-family: JosefinSansReg;
 	padding-top: : 3rem;
-  color: #cc0000 !important;
+  color: #1698AF !important;
 }
 
 /*---
@@ -149,7 +149,7 @@ margin-top: 5rem;
 }
 
 #title h4 {
-  color: #cc0000 !important;
+  color: #1698AF !important;
 }
 
 
